@@ -348,7 +348,7 @@ export default function SalesContent({ transactions = [] }) {
                   Transaksi
                 </th>
                 <th className="px-3 sm:px-6 py-2 sm:py-3 text-left font-semibold text-gray-600">
-                  Revenue
+                  Pendapatan
                 </th>
                 <th className="px-3 sm:px-6 py-2 sm:py-3 text-left font-semibold text-gray-600">
                   Rata-rata
