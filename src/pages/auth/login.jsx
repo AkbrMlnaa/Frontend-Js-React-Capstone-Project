@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { loginUser } from "@/services/auth";
 import { useNavigate } from "react-router-dom";
-import { ErrorMessage } from "@/components/ui/ErrorMessage";
+import { ErrorMessage } from "@/components/ui/errormessage";
 
 export const Login = ({ auth, setAuth }) => {
   const navigate = useNavigate();
