@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Login } from "./pages/auth/login";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import { PrivateRoute, PublicRoute } from "./pages/auth/AuthRoute";
 import { api } from "@/services/api";
 
