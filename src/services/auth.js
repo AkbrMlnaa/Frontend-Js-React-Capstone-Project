@@ -6,7 +6,6 @@ export const loginUser = async (email, password) => {
   try {
     await api.post("/auth/login", { email, password });
 
-    // setelah login cukup panggil profile
     const res = await api.get("/v1/profile");
 
     return { error: false, profile: res.data };
