@@ -19,7 +19,7 @@ export default function Sidebar({
   open,
   setOpen,
   setAuth,
-  auth, // <-- kita ambil role disini
+  auth, 
 }) {
   const navigate = useNavigate();
   const role = auth?.profile?.role;
@@ -28,7 +28,6 @@ export default function Sidebar({
     { name: "Menu", key: "menu", icon: <Utensils size={20} /> },
     { name: "Ingredients", key: "ingredients", icon: <Package size={20} /> },
 
-    // HANYA MANAGER
     ...(role === "manager"
       ? [
           {
